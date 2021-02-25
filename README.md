@@ -24,6 +24,7 @@ There are two different actions in the deploy stage.
 
 
 Run the below commands to run the code
+
 ```terraform init```
 This is used to initialize the terraform in the current project.
 
