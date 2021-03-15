@@ -1,7 +1,7 @@
 # aws-codepipeline-sam
 This code is responsible for creating codepipeline for AWS SAM
 
-This code is used to create CI/CD pipeline for react application on AWS. There are 3 stages involved in the CI/CD pipeline. They are:
+This code is used to create CI/CD pipeline for serverless applications on AWS. There are 3 stages involved in the CI/CD pipeline. They are:
 
 # Source
 In this current stage, codepipeline pulls the code from github. Update Owner, Repo, Branch, OAuthToken in the variables.tf file before running the code. 
