@@ -1,5 +1,5 @@
 # aws-codepipeline-sam
-This code is responsible for creating codepipeline for AWS SAM
+This code is responsible for creating codepipeline for AWS SAM.
 
 This code is used to create CI/CD pipeline for serverless applications on AWS. There are 3 stages involved in the CI/CD pipeline. They are:
 
@@ -8,7 +8,7 @@ In this current stage, codepipeline pulls the code from github. Update Owner, Re
 
 ```If you want to hard code values, uncomment the respective variable value in the varibales.tf file and enter your project details over there```. 
 
-Don't commit varibales.tf with your project details in it.
+Don't commit varibales.tf with your project details in it. Create .gitignore file, move variables.tf and any confidential details files to it.
 
 # Build
 ```Codebuild builds the code and copies artifacts to the s3 folder according to steps mentioned in the buildspec.yml file in the application code.``` 
